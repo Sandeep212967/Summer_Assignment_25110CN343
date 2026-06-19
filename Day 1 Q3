@@ -7,7 +7,7 @@ int main()
     cin>>n;
     for(i=1;i<=n;i++)
     {
-        fact = fact * i;
+        fact = fact*i;
     }
         cout<<"your factorial is:"<<fact;
         
