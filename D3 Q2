@@ -24,4 +24,5 @@ for(i=n;i<=m;i++)
         cout<<"\n";
     }
 }
+return 0;
 }
