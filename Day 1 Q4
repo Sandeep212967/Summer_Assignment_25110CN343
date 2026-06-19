@@ -7,7 +7,7 @@ int main()
     cin>>n;
     while(n>0)
     {
-        n = n / 10;
+        n = n/10;
         count++;
     }
     cout<<"Number of digits: "<<count;
