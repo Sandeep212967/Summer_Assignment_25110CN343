@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n,arm=0,d=0,temp;
+   cout<<"Enter a first number: ";
+    cin>>n;
+    temp=n;
+while(n!=0)
+{
+    d=n%10;
+    arm=arm+d*d*d;
+    n=n/10;
+}
+if(arm==temp)
+{
+    cout<<"The number is an Armstrong number.";
+}
+else
+{
+    cout<<"The number is not an Armstrong number.";
+}
+}
