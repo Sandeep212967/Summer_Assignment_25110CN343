@@ -1,0 +1,27 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int i,j,n,flag=1,m;
+   cout<<"Enter a first number: ";
+    cin>>n;
+cout<<"Enter a second number: ";
+    cin>>m;
+for(i=n;i<=m;i++)
+{   
+    flag=1;
+    for(j=2;j<=i/2;j++)
+    {
+        if(i%j==0)
+        {
+            flag=0;
+            break;
+        }
+    }
+    if(flag==1)
+    {
+        cout<<i<<" is prime";
+        cout<<"\n";
+    }
+}
+}
